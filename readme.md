@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="Logo" src="assets/explorerlogo.png" width="200px" />
+	<img alt="Logo" src="https://github.com/HerbertSousa/GitHub_Explorer/blob/master/src/assets/explorerlogo.png?raw=true" width="200px" />
 </h1>
 
 <h3 align="center">
