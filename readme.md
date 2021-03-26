@@ -17,7 +17,7 @@
 
 ## 👨🏻‍💻 About the project
 
-- <p style="color: red;">
+<p style="color: red;">
 Github explorer uses the Github API to display information from repositories such as Stars, Forks, Issues.</p>
 
 
