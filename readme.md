@@ -19,7 +19,8 @@
 
 <p style="color: red;">
 Github explorer uses the Github API to display information from repositories such as Stars, Forks, Issues.</p>
-
+<img alt="Logo" src="https://github.com/HerbertSousa/GitHub_Explorer/blob/master/src/assets/tela_1.gif?raw=true" width="200px" />
+<img alt="Logo" src="https://github.com/HerbertSousa/GitHub_Explorer/blob/master/src/assets/tela_2.gif.png?raw=true" width="200px" />
 
 ## 🚀 Technologies
 
