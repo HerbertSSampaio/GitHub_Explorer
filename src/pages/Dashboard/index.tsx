@@ -50,6 +50,10 @@ try {
 
   }
 
+  function handleRemoveRepository(deleteRepository: Repository) {
+    setRepositories(repositories.filter(repository => repository !== deleteRepository))
+  }
+
   return (
     <>
     <img src={logoImg} alt="GitHub Explorer" />
