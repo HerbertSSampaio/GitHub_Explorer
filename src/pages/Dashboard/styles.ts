@@ -61,14 +61,13 @@ export const Repositories = styled.div`
   margin-top: 80px;
   max-width: 700px;
 
-  a {
+  div {
     background: #fff;
     border-radius: 5px;
     width: 100%;
-    padding: 24px;
-    text-decoration: none;
 
     display: flex;
+    justify-content: space-between;
     align-items: center;
     transition: transform 0.2s;
 
@@ -76,32 +75,47 @@ export const Repositories = styled.div`
       transform: translateX(10px);
     }
 
-    & + a {
+    & + div {
       margin-top: 16px;
     }
-
-    img {
-      width: 64px;
-      height: 64px;
-      border-radius: 50%;
+    a:first-child {
+      padding: 10px;
+      background-color: #ff6262;
+      color: #fff;
+      cursor: pointer;
     }
-    div {
-      margin: 0 16px;
-      flex: 1;
+    a:nth-child(2) {
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      width: 100%;
 
-      strong {
-        font-size: 20px;
-        color: #3d3d4d;
+      img {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
       }
-      p {
-        font-size: 18px;
-        color: #a8a8b3;
-        margin-top: 4px;
+      div {
+        display:flex;
+        flex-wrap: wrap;
+        margin: 0 16px;
+        flex: 1;
+
+        strong {
+          font-size:1.4vw;;
+          color: #3d3d4d;
+        }
+        p {
+          font-size:1.3vw;;
+          color: #a8a8b3;
+          margin-top: 4px;
+        }
       }
-    }
-    svg {
-      margin-left: auto;
+      svg {
+        margin-left: auto;
+      }
     }
   }
 `;
-
